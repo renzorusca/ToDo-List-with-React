@@ -1,0 +1,57 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+body {
+  padding: 50px;
+  background-color: #999999;
+  font-family: sans-serif;
+  font-size:20px; 
+}
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  text-color: #b34d4d;
+}
+
+.todoListMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FFF;
+  width: 450px;
+}
+
+.todoListMain .header button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+
+  
+}
+.todoListMain .theList {
+  list-style: none;
+  padding: 0;
+  width: 450px;
+
+} 
+.todoListMain .theList li {
+  color: #333;
+  background-color: rgba(255,255,255,.5);
+  padding: 15px;
+  margin-bottom: 1px;
+  list-style: none;
+  font-size:20px; 
+
+}
+
+.todoListMain .theList li:hover {
+  background-color: white;
+}
+ul.theList {
+  padding: 0;
+}
+
+
