@@ -14,7 +14,7 @@ class TodoItems extends Component {
 			<li onClick={() => this.delete(item.key)} key={item.key}>
 				{item.text}
 				<span>
-					<i className="fa fa-close" />
+					<i className="fa fa-trash" />
 				</span>
 			</li>
 		);
